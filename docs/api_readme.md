@@ -113,8 +113,10 @@ Kin Ecosystem SDK must be initialized before any interaction with the SDK, in or
 <!--DOCUSAURUS_CODE_TABS-->
 <!--Android-->
 ```java
-Kin.initialize(getApplicationContext());
+Kin.initialize(getApplicationContext(), KinTheme.LIGHT);
 ```
+You can choose to set `KinTheme.LIGHT` or `KinTheme.DARK`.
+
 
 <!--iOS-->
 ```swift
